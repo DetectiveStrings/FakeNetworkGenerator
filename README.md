@@ -52,10 +52,10 @@ usage
 
 ```python 
 La.TcpSyn('192'168.1.53' , '192'168.1.88' )
-'''
+```
 
 or
 
 ```python 
 La.TcpSyn(La.random.choice(La.IpTable) , La.random.choice(La.IpTable) )
-'''
+```
