@@ -42,7 +42,7 @@ import lafng as La
 
 ### TCP
 
-1) TcpSyn : Genetras a Tcp Syn packet.
+#### TcpSyn : Genetras a Tcp Syn packet.
 
 Parameters  : SrcIp , DstIp .
 
@@ -59,3 +59,4 @@ or
 ```python 
 La.TcpSyn(La.random.choice(La.IpTable) , La.random.choice(La.IpTable) )
 ```
+
