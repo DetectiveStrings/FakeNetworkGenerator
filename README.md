@@ -16,9 +16,16 @@ Freq_use.py     : Contains ferquantlly used functions and data structures also u
 
 # lafng
 
-## Import 
+This is the main part and contains all the functions you need to generate fake network traffic and attack traffics. 
+
+### Import 
 ```python 
 
 import lafng as La
 
 ```
+
+### Important Data 
+
+
+
