@@ -16,7 +16,9 @@ Freq_use.py     : Contains ferquantlly used functions and data structures also u
 
 # lafng
 
-This is the main part and contains all the functions you need to generate fake network traffic and attack traffics. 
+This is the main part and contains all the functions you need to generate fake network traffic and attack traffics.
+
+If you use it on your public network interface make sure to run your script as root. 
 
 ## Import 
 ```python 
@@ -35,7 +37,25 @@ import lafng as La
 ## Functions 
 ### SetUP
 
-1) RandomStringGenrator
+1) RandomStringGenrator : Genetras a random string. (not for user usage)
+2) HttpPathGenerator    : Genetras a random http path using RandomStringGenrator. (not for user usage)
 
+### TCP
 
+1) TcpSyn : Genetras a Tcp Syn packet.
 
+Parameters  : SrcIp , DstIp .
+
+Retuen : SrcPort  , DstPort , PacSequ (syn packet sequence)
+
+usage 
+
+```python 
+La.TcpSyn('192'168.1.53' , '192'168.1.88' )
+'''
+
+or
+
+```python 
+La.TcpSyn(La.random.choice(La.IpTable) , La.random.choice(La.IpTable) )
+'''
