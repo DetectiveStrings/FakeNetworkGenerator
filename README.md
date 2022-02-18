@@ -5,3 +5,20 @@ This lib is mainly written to generate specific network scenarios so the person 
 
 I'll be happy if anyone wants to add more features or edit anyone to improve the performance  
 
+## About Liberary Files  
+This lib is consents of 3 files. 
+
+lafng.py        : The main lib you can use.
+
+Custom_lafng.py : This file is used by lafng to produce custom protocols and custom requests to specific network layers.
+
+Freq_use.py     : Contains ferquantlly used functions and data structures also used by lafng and Custom_lafng.
+
+# lafng
+
+## Import 
+```python 
+
+import lafng as La
+
+```
