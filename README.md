@@ -3,7 +3,7 @@ Fake network generator tool, that I developed to create a CTF challenge, but thi
 
 This lib is mainlly written to generate network trrafic(using virtual interface , or using wlan interface and interact with the environment) with any scenario so the person can analyse and learn the skill that he wants to. 
 
-I'll be happy if anyone wants to add more features or edit anyone to improve the performance
+I'll be happy if anyone wants to add more features or edit anything to improve the performance
 
 ## About Liberary Files  
 This lib is consents of 3 files. 
